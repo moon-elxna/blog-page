@@ -1,0 +1,59 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: max-content;
+}
+
+p.blogpostTitle {
+    text-align: left
+}
+
+div {
+    text-align: left
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+
+img.headerIcon {
+
+    height: 50px;
+
+}
+
+img.blogpost {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+img.blogpostIconDate {
+    height: 25px
+}
+
+button.blogpost {
+    background-color: none;
+    width: 400px;
+    margin-top: -10px;
+    border-radius: 0px;
+    border: none;
+}
+
+section.blogpost {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* Abstand zwischen Buttons */
+    justify-content: center;
+    /* Buttons zentrieren, optional */
+    margin-top: 50px;
+}
+
+article {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
